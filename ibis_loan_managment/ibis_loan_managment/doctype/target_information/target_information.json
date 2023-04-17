@@ -1,0 +1,46 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-18 03:41:54.024616",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "month",
+  "financial_year",
+  "target_recovery_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "month",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Month",
+   "options": "January\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember"
+  },
+  {
+   "fieldname": "financial_year",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Financial Year",
+   "options": "2023\n2024\n2025\n2026\n2027\n2028\n2029\n2030"
+  },
+  {
+   "fieldname": "target_recovery_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Target Recovery Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-04-18 03:49:53.897421",
+ "modified_by": "Administrator",
+ "module": "Ibis Loan Managment",
+ "name": "Target Information",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
