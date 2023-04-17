@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ibis_loan_managment *.css
+recursive-include ibis_loan_managment *.csv
+recursive-include ibis_loan_managment *.html
+recursive-include ibis_loan_managment *.ico
+recursive-include ibis_loan_managment *.js
+recursive-include ibis_loan_managment *.json
+recursive-include ibis_loan_managment *.md
+recursive-include ibis_loan_managment *.png
+recursive-include ibis_loan_managment *.py
+recursive-include ibis_loan_managment *.svg
+recursive-include ibis_loan_managment *.txt
+recursive-exclude ibis_loan_managment *.pyc
